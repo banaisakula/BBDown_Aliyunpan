@@ -1,0 +1,20 @@
+clear
+cat -n /root/bburl
+echo "########"
+echo "输入none清空，输入bb返回主程序，输入链接添加链接："
+read url
+    if   [ $url == "none" ]
+    then
+echo "已清空"
+    cat /dev/null > /root/bburl
+clear
+/usr/local/bin/bbb
+elif   [ $url == "bb" ]
+then
+/usr/local/bin/bb
+else
+echo $url >> /root/bburl
+sed -i '/^$/d' /root/bburl
+sort -n /root/bburl | uniq > /root/bburl.txt ; rm /root/bburl ;mv /root/bburl.txt /root/bburl
+/usr/local/bin/bbb
+fi
