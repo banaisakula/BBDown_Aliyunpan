@@ -22,7 +22,7 @@ cd /root
 git clone https://github.com/banaisakula/BBDown_Aliyunpan.git
 cd BBDown_Aliyunpan
 chmod 777 bb bbb
-sudo cp ./bbb ./bb /usr/local/bin
+cp ./bbb ./bb /usr/local/bin
 echo "已经复制文件"
 
 
