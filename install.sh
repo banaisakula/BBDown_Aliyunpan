@@ -24,5 +24,3 @@ cd BBDown_Aliyunpan
 chmod 777 bb bbb
 cp ./bbb ./bb /usr/local/bin
 echo "已经复制文件"
-
-
