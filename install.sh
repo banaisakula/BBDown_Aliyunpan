@@ -1,5 +1,4 @@
-downloadaliyunpan(){
-    cd ~; mkdir aliyunpan;cd aliyunpan
+downloadaliyunpan(){ cd ~; mkdir aliyunpan;cd aliyunpan
     aliyunpan_version=`curl 'https://api.github.com/repos/tickstep/aliyunpan/releases/latest' | jq '.tag_name'  | sed 's#"##g' ` 
     wget https://github.com/tickstep/aliyunpan/releases/download/$aliyunpan_version/aliyunpan-$aliyunpan_version-linux-amd64.zip
     unzip *.zip -d ./
@@ -51,3 +50,4 @@ echo "此程序主要命令是   bb    和     bbb"
 echo "bb命令是主要下载程序命令"
 echo "bbb是采用创建文本逐行下载"
 echo "此致"
+
