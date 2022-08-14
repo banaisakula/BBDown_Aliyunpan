@@ -10,4 +10,8 @@ apt install -y wget jq && wget -O install.sh https://raw.githubusercontent.com/b
 ```
 yum install -y wget jq && wget -O install.sh https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/install.sh && sh install.sh
 ```
+---
+credit
+[https://github.com/nilaoda/BBDown](BBDown)
+
 
