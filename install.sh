@@ -44,8 +44,9 @@ git clone https://github.com/banaisakula/BBDown_Aliyunpan.git
 cd BBDown_Aliyunpan
 chmod 777 ./bb ./bbb
 sudo cp bbb bb /usr/local/bin
-echo "已经复制文件，请先运行aliyunpan命令登陆阿里云盘"
-echo "然后运行BBDown login登陆哔哩哔哩"
+echo "已经复制文件，请先运行     aliyunpan login    命令然后使用刷新令牌登陆阿里云盘，不知道如何获取刷新令牌可以在这个网站获取"
+echo "https://alist-doc.nn.ci/docs/driver/aliyundrive"
+echo "然后运行    BBDown login    登陆哔哩哔哩,如果不是大会员还需要修改默认下载画质，默认为1080p高帧率"
 echo "此程序主要命令是   bb    和     bbb"
 echo "bb命令是主要下载程序命令"
 echo "bbb是采用创建文本逐行下载"
