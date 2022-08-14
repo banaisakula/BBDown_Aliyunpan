@@ -1,6 +1,4 @@
-#!/usr/bin/bash
 downloadaliyunpan(){
-    #tickstep/aliyunpan
     cd ~; mkdir aliyunpan;cd aliyunpan
     aliyunpan_version=`curl 'https://api.github.com/repos/tickstep/aliyunpan/releases/latest' | jq '.tag_name'  | sed 's#"##g' ` 
     wget https://github.com/tickstep/aliyunpan/releases/download/$aliyunpan_version/aliyunpan-$aliyunpan_version-linux-amd64.zip
