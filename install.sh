@@ -6,7 +6,7 @@ downloadaliyunpan(){ cd ~; mkdir aliyunpan;cd aliyunpan
     sudo mv aliyunpan /usr/local/bin ;chmod  777 /usr/local/bin/aliyunpan
     rm -rf ~/aliyunpan
     #   aliyunpan login
-}
+    }
 downloadBBdown(){
     # nilaoda/BBDown
     cd ~; mkdir BBDown;cd BBDown
@@ -17,7 +17,7 @@ downloadBBdown(){
     sudo mv BBDown /usr/local/bin ;chmod  777 /usr/local/bin/BBDown
     rm -rf ~/BBDown
     #  BBDown login
-}
+    }
 ##主程序开始
 rm -rf ~/BBDown ~/aliyunpan
 alidrive="/root/阿里云盘"
