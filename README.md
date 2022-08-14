@@ -12,6 +12,7 @@ yum install -y wget jq && wget -O install.sh https://raw.githubusercontent.com/b
 ```
 ---
 credit
-(https://github.com/nilaoda/BBDown)[BBDown]
+[BBDown](https://github.com/nilaoda/BBDown)
+[aliyunpan](https://github.com/tickstep/aliyunpan)
 
 
