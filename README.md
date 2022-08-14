@@ -8,7 +8,7 @@ apt install -y wget jq ffmpeg && wget -O install.sh https://raw.githubuserconten
 ---
 ## centos系统
 ```
-yum install -y wget jq && wget -O install.sh https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/install.sh && sh install.sh
+yum install -y wget jq ffmpeg && wget -O install.sh https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/install.sh && sh install.sh
 ```
 ![例子1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子3.png)
 ![例子2](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子2.png)
