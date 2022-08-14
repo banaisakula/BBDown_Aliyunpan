@@ -1,4 +1,4 @@
-# BBDown_Aliyunpan
+# BBDown_Aliyunpan(简单shell命令)
 在vps上使用BBDown下载哔哩哔哩视频然后通过aliyunpan命令转存阿里云盘
 ---
 ## Debian系统
