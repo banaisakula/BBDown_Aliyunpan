@@ -21,7 +21,6 @@ download_BBdown(){
     rm -rf ~/BBDown
     #  BBDown login
 }
-
 ##主程序开始
 rm -rf ~/BBDown ~/aliyunpan
 alidrive="/root/阿里云盘"
@@ -31,36 +30,26 @@ if ! [ -x "$(command -v aliyunpan)" ]; then
   echo 'Error: aliyunpan is not installed.' >&2
   echo "正在自动下载最新版本aliyunpan"
   download_aliyunpan
-  exit 1
-elif ! [ -x "$(command -v BBDown)" ]; then
+fi
+if ! [ -x "$(command -v BBDown)" ]; then
   echo 'Error: BBDown is not installed.' >&2
  echo "正在自动下载最新版本BBDown" 
 download_BBdown
-  exit 1
-elif [ ! -d "$alidrive" ]; then   
+fi
+if [ ! -d "$alidrive" ]; then   
     echo "发现不存在阿里云盘目录，已创建缓存目录，目录为："
     echo "$alidrive"
     mkdir -p $alidrive
     echo "请重新运行此命令"
-    exit 1
 fi
-
-
 cd /root
 git clone https://github.com/banaisakula/BBDown_Aliyunpan.git
 cd BBDown_Aliyunpan
 chmod 777 ./bb ./bbb
-sudo cp ./bbb ./bb /usr/local/bin
+sudo cp bbb bb /usr/local/bin
 echo "已经复制文件，请先运行aliyunpan命令登陆阿里云盘"
 echo "然后运行BBDown login登陆哔哩哔哩"
 echo "此程序主要命令是   bb    和     bbb"
 echo "bb命令是主要下载程序命令"
 echo "bbb是采用创建文本逐行下载"
 echo "此致"
-
-
-
-
-
-
-
