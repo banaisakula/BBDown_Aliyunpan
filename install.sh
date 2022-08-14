@@ -23,6 +23,8 @@ download_BBdown(){
 }
 
 ##主程序开始
+rm -rf ~/BBDown ~/aliyunpan
+alidrive="/root/阿里云盘"
 echo "正在检测aliyunpan命令和BBDown"
 ##检测关键命令存在
 if ! [ -x "$(command -v aliyunpan)" ]; then
@@ -35,8 +37,7 @@ elif ! [ -x "$(command -v BBDown)" ]; then
  echo "正在自动下载最新版本BBDown" 
 download_BBdown
   exit 1
-else
-if [ ! -d "$alidrive" ]; then   
+elif [ ! -d "$alidrive" ]; then   
     echo "发现不存在阿里云盘目录，已创建缓存目录，目录为："
     echo "$alidrive"
     mkdir -p $alidrive
@@ -48,7 +49,7 @@ fi
 cd /root
 git clone https://github.com/banaisakula/BBDown_Aliyunpan.git
 cd BBDown_Aliyunpan
-chmod 777 bb bbb
+chmod 777 ./bb ./bbb
 sudo cp ./bbb ./bb /usr/local/bin
 echo "已经复制文件，请先运行aliyunpan命令登陆阿里云盘"
 echo "然后运行BBDown login登陆哔哩哔哩"
