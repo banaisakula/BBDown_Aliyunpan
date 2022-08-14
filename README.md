@@ -10,10 +10,21 @@ apt install -y wget jq ffmpeg && wget -O install.sh https://raw.githubuserconten
 ```
 yum install -y wget jq ffmpeg && wget -O install.sh https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/install.sh && sh install.sh
 ```
-![例子1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子3.png)
-![例子2](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子2.png)
-![例子3](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子1.png)
-
+---
+## bb
+![bbb1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子3.png)
+![bbb2](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子2.png)
+![bbb3](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子1.png)
+---
+## bbb
+![bb1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/1.png)
+![bb2](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/2.png)
+![bb3](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/3.png)
+![bb4](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/4.png)
+![bb5](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/5.png)
+![bb6](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/6.png)
+![bb7](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/7.png)
+---
 
 
 
