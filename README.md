@@ -3,7 +3,7 @@
 ---
 ## Debian系统
 ```
-apt install -y wget jq && wget -O install.sh https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/install.sh && sh install.sh
+apt install -y wget jq ffmpeg && wget -O install.sh https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/install.sh && sh install.sh
 ```
 ---
 ## centos系统
