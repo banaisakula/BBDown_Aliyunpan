@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-download_aliyunpan(){
+downloadaliyunpan(){
     #tickstep/aliyunpan
     cd ~; mkdir aliyunpan;cd aliyunpan
     aliyunpan_version=`curl 'https://api.github.com/repos/tickstep/aliyunpan/releases/latest' | jq '.tag_name'  | sed 's#"##g' ` 
@@ -10,7 +10,7 @@ download_aliyunpan(){
     rm -rf ~/aliyunpan
     #   aliyunpan login
 }
-download_BBdown(){
+downloadBBdown(){
     # nilaoda/BBDown
     cd ~; mkdir BBDown;cd BBDown
     BBDownversion=`curl 'https://api.github.com/repos/nilaoda/BBDown/releases/latest' | jq '.tag_name'  | sed 's#"##g' ` #1.5.3
@@ -29,12 +29,12 @@ echo "正在检测aliyunpan命令和BBDown"
 if ! [ -x "$(command -v aliyunpan)" ]; then
   echo 'Error: aliyunpan is not installed.' >&2
   echo "正在自动下载最新版本aliyunpan"
-  download_aliyunpan
+downloadaliyunpan
 fi
 if ! [ -x "$(command -v BBDown)" ]; then
   echo 'Error: BBDown is not installed.' >&2
  echo "正在自动下载最新版本BBDown" 
-download_BBdown
+downloadBBdown
 fi
 if [ ! -d "$alidrive" ]; then   
     echo "发现不存在阿里云盘目录，已创建缓存目录，目录为："
