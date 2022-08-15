@@ -1,8 +1,10 @@
 # BBDown_Aliyunpan(简单shell命令)
 在vps上使用BBDown下载哔哩哔哩视频然后通过aliyunpan命令转存阿里云盘
 ---
+
 默认 vps路径是/root/阿里云盘/
 默认阿里云盘路径是 /share/哔哩哔哩
+
 ---
 ## Debian系统
 ```
