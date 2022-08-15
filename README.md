@@ -22,7 +22,6 @@ yum install -y wget jq ffmpeg && wget -O install.sh https://raw.githubuserconten
 ![bbb1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子3.png)
 ![bbb2](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子2.png)
 ![bbb3](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/例子1.png)
-![bb1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/1.png)
 ---
 ## bbb
 ![bb1](https://raw.githubusercontent.com/banaisakula/BBDown_Aliyunpan/main/1.png)
